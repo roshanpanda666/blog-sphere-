@@ -55,12 +55,12 @@ const PostImages: React.FC<DropzoneProps> = ({
     <div
       {...getRootProps({
         className:
-          "w-full p-4 text-white text-center border-2 border-dotted rounded-md border-neutral-700",
+          "w-full p-4 text-white text-center border-2 border-blue-700 rounded-md border-dotted",
       })}
     >
       <input {...getInputProps()} />
       {base64 ? (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ">
           <Image src={base64} height="100" width="100" alt="Uploaded image" />
         </div>
       ) : (

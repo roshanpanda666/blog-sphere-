@@ -5,8 +5,8 @@ import BottomBar from "./layout/BottomBar";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="h-screen bg-black ">
-      <div className="container h-full mx-auto xl:px-30 max-w-6xl">
+    <div className="h-screen bg-black">
+      <div className="container h-full mx-auto xl:px-30 max-w-[100rem]">
         <div className="grid grid-cols-1  md:grid-cols-4 h-full">
           <Sidebar />
           <div

@@ -21,16 +21,10 @@ const SidebarLogo = () => {
        
     "
       >
-        <Image
-          className="w-full h-10"
-          width={100}
-          height={100}
-          alt="logo"
-          src="/logo.png"
-        />
+        <div className="text-white text-3xl">Blog-<span className="text-3xl text-blue-600 ">Sphere</span></div>
       </div>
       <h3 className="text-white font-bold text-3xl flex md:hidden">
-        Chat Sync
+        blog-sphere
       </h3>
     </div>
   );

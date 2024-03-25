@@ -44,7 +44,8 @@ const SidebarItem: React.FC<SidebarItemProps> = ({ label, icon: Icon, href, auth
         items-center
         justify-center 
         p-4
-        hover:bg-slate-300 
+        hover:border-2
+        hover:border-blue-700
         hover:bg-opacity-10 
         cursor-pointer 
         lg:hidden
@@ -60,7 +61,8 @@ const SidebarItem: React.FC<SidebarItemProps> = ({ label, icon: Icon, href, auth
         gap-4 
         p-4 
         rounded-full 
-        hover:bg-slate-300 
+        hover:border-2
+        hover:border-blue-700
         hover:bg-opacity-10 
         cursor-pointer
         items-center
