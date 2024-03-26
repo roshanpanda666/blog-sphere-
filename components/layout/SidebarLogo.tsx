@@ -18,6 +18,7 @@ const SidebarLogo = () => {
         hover:bg-blue-300 
         hover:bg-opacity-10 
         cursor-pointer
+        w-96
        
     "
       >

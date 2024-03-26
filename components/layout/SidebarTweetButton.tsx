@@ -50,8 +50,10 @@ const SidebarTweetButton = () => {
       border-blue-700
         hover:border-green-300
         cursor-pointer
-        
-      ">
+        mb-6
+        text-white
+        font-bold
+      ">UPLOAD
         <p 
           className="
             hidden 
@@ -62,7 +64,7 @@ const SidebarTweetButton = () => {
             text-[20px]
         
         ">
-          UPLOAD
+          
         </p>
       </div>
     </div>
