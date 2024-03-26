@@ -4,7 +4,7 @@ import { BsBellFill, BsHouseFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import SidebarItem from "./SidebarItem";
-import SidebarTweetButton from "./SidebarTweetButton";
+import SidebarButton from "./SidebarTweetButton";
 import { BiLogOut } from "react-icons/bi";
 import { signOut } from "next-auth/react";
 import BottemBarItem from "./BottemBarItem";

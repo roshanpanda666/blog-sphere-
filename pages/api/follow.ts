@@ -32,7 +32,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (req.method === 'POST') {
       updatedFollowingIds.push(userId);
 
-      // NOTIFICATION PART START
+      //  PART START
       try {
         await prisma.notification.create({
           data: {
