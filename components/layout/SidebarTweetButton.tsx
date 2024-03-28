@@ -32,8 +32,8 @@ const SidebarTweetButton = () => {
         justify-center 
         bg-blue-600 
         hover:bg-opacity-80 
-        transition 
-        cursor-pointer
+        transation
+        ursor-pointer
       ">
         <FaFeather size={24} color="white" />
       </div>
